@@ -1,0 +1,22 @@
+<section class="padded">
+    <div class="container">
+      <h2>Top Juegos</h2>
+
+      <div class="row row-cols-1 row-cols-md-4 g-4" >
+
+        <div class="col" *ngFor=" let item of listaTop">
+          <div class="card">
+            <img src="https://brunoraffwebservice.000webhostapp.com/{{item.foto}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{item.nombre}}</h5>
+              <p class="card-text">{{item.desaJuego}}</p>
+              <small>{{item.precio}}</small>
+            </div>
+          </div>
+        </div>
+
+      </div> 
+               
+    </div>
+  </section>
+

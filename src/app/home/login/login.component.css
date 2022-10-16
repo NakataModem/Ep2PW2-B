@@ -1,0 +1,131 @@
+.formWraper{
+    display: flex;
+    width: 85%;
+    height: 630px;
+    background-image: url(/assets/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+.formDiv{
+    width: 50%;
+    padding: 8%;
+    
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+}
+.formDiv h2{
+    color:palevioletred;
+    margin-top:-5px;
+}
+
+.welcomeDiv{
+    width: 50%;
+    padding:10px;
+   
+    
+    text-align: center;
+    color: black;
+}
+.welcomeDiv h2{
+    margin-top: 150px;
+    font-weight: 900;
+}
+.socialBtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:lavender;
+    margin: 5px;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+.text{
+    font-size: small;
+    color:black;
+    font-weight: 900;
+}
+.orDiv{
+    width: 10%;
+    margin: 0 auto;
+    background-color: lavender;
+    position: relative;
+    top:-16px;
+    justify-content: center;
+}
+.formGroup{
+    width: 100%;
+    position: relative;
+}
+.formGroup input{
+    width:  93%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.formGroup i{
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    color:grey;
+    font-size: smaller;
+}
+input::placeholder{
+    position: relative;
+    left: 20px;
+}
+.checkBox{
+    width: 100%;
+    margin-top: 2px;
+}
+.btn1{
+    width: 70%;
+    padding: 15px;
+    background-color:#446084;
+    margin-top: 15px;
+    color: white;
+    border-radius:20px;
+    border-style:none;
+    font-weight: 900;
+}
+.btn2{
+    width: 70%;
+    padding: 15px;
+    background-color:transparent;
+    margin-top: 15px;
+    color: white;
+    border-radius:20px;
+    border-style:none;
+    border: 2px solid black;
+    font-weight: 900;
+}
+.btn1:hover, .btn2:hover, .icon:hover{
+    background-color:#446084;
+}
+@media screen and(max-width:1000px){
+    .formWraper{
+        width: 70%;
+    }
+}
+@media screen and(max-width:600px){
+    .formDiv{
+        width: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .welcomeDiv{
+        display:none;
+    }
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
