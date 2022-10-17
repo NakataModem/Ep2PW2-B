@@ -1,0 +1,9 @@
+.center-titulo{    
+    text-align: center;
+    margin-bottom: 24px;
+    
+}
+ .title{
+    color: var(--colortitle);  
+    margin-bottom: 20px;  
+ }

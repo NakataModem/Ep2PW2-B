@@ -6,7 +6,13 @@
     padding: 50px 15px 50px 15px;
 }
 
-
+.center-titulo{    
+    text-align: center;
+    margin-bottom: 24px;
+}
+ .title{
+    color: var(--colortitle);    
+ }
 
 .efecto-image{    
     position: relative;
@@ -63,4 +69,28 @@
 .efecto-image{
     transition-duration: .5s;
     transition-property: transform;   
+}
+
+@media (max-width: 576px) { 
+    .grids{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: auto;
+    }
+}
+
+@media (max-width: 468px) { 
+    .grids{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+    }
+}
+
+@media (max-width: 368px) { 
+    .grids{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        min-width: 220px;
+    }
 }

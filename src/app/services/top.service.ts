@@ -9,7 +9,7 @@ export class TopService {
   constructor(private http: HttpClient) { }
 
   topSelect(){
-    const ruta="https://brunoraffwebservice.000webhostapp.com/juegos.php";
+    const ruta="https://brunoraffwebservice.000webhostapp.com/juegos.php ";
     return this.http.get(ruta);    
   }
 }

@@ -30,9 +30,9 @@ h2{
     font-weight: 300;
     font-size: 32px;
     letter-spacing: -2px;
-    text-transform: lowercase;
+    
     text-align: center;
-    padding-bottom: 45px;
+    padding-bottom: 30px;
     font-family: "Lato",sans-serif;
 }
 
@@ -44,6 +44,7 @@ h3{
 }
 
 .padded{
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
 }

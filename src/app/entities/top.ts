@@ -1,7 +1,6 @@
 export class TopJuegos{
-    id_juego: string | undefined;
-    nombre: string | undefined;
-    desaJuego: string | undefined;
-    precio: string | undefined;
-    foto: string | undefined;
+    Nom_juego: string | undefined;
+    Desarrollador_juego: string | undefined;
+    Precio_juego: string | undefined;    
+    Imagen_juego: string | undefined;
 }
