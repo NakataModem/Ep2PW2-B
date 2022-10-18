@@ -13,9 +13,9 @@ const routes: Routes = [
   {path:'juegos',component: JuegosComponent},
   {path:'usuarios',component: UsuariosComponent},
   {path:'top',component: TopComponent},
-  // {path:'presentacion',component:PresentacionComponent},
-  // {path: 'login',component:LoginComponent},  
-  // {path: 'cards',component:CardsComponent}
+  {path:'presentacion',component:PresentacionComponent},
+  {path: 'login',component:LoginComponent},  
+  {path: 'cards',component:CardsComponent}
 ];
 
 @NgModule({

@@ -17,6 +17,7 @@ import { PresentacionComponent } from './home/presentacion/presentacion.componen
 import { LoginComponent } from './home/login/login.component';
 import { CardsComponent } from './home/cards/cards.component';
 import { TopComponent } from './pages/top/top.component';
+import { TopConsolasComponent } from './home/top-consolas/top-consolas.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { TopComponent } from './pages/top/top.component';
     PresentacionComponent,
     LoginComponent,
     CardsComponent,
-    TopComponent
+    TopComponent,
+    TopConsolasComponent
   ],
   imports: [
     BrowserModule,
