@@ -8,5 +8,14 @@
     margin-bottom: 20px;  
  }
  #noticias{
-    padding-top: 10px;
+    padding-top: 30px;
+ }
+ p{
+    text-align: center;
+    font-size: 30px;
+ }
+
+ h1{
+    padding-top: 70px;
+    padding-bottom: 80px;
  }
