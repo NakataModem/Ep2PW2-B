@@ -4,14 +4,14 @@
 
       <div class="row row-cols-1 row-cols-md-4 g-4" >
 
-        <div class="col" *ngFor=" let item of listaTop">
+        <div class="col" *ngFor=" let item of listaTop" id="contcard">
           <div class="card">
             <img src="https://brunoraffwebservice.000webhostapp.com/{{item.Imagen_juego}}" class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="card-body" id="text">
               <h5 class="card-title">{{item.Nom_juego}}</h5>
               <p class="card-text">{{item.Desarrollador_juego}}</p>
               <p>{{item.Genero_juego}}</p>
-              <p>{{item.Precio_juego}}</p>
+              <p id="precio">{{item.Precio_juego}}</p>
             </div>
           </div>
         </div>

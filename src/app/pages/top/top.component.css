@@ -1,0 +1,11 @@
+#contcard{
+    display: flex;
+    align-items: stretch;
+}
+#text{
+    position: relative;
+}
+#precio{
+    position: absolute;
+    bottom: 0;
+}
